@@ -1,0 +1,11 @@
+--- unicode-normalization-0.1.12/Cargo.toml	2020-01-21T22:34:25+00:00
++++ unicode-normalization-0.1.12/Cargo.toml	2020-01-27T20:37:28.924767+00:00
+@@ -14,7 +14,7 @@
+ name = "unicode-normalization"
+ version = "0.1.12"
+ authors = ["kwantam <kwantam@gmail.com>"]
+-exclude = ["target/*", "Cargo.lock", "scripts/tmp", "*.txt", "tests/*"]
++exclude = ["target/*", "Cargo.lock", "scripts/*", "*.txt", "tests/*"]
+ description = "This crate provides functions for normalization of\nUnicode strings, including Canonical and Compatible\nDecomposition and Recomposition, as described in\nUnicode Standard Annex #15.\n"
+ homepage = "https://github.com/unicode-rs/unicode-normalization"
+ documentation = "https://docs.rs/unicode-normalization/"
