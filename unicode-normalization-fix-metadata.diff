@@ -1,9 +1,10 @@
---- unicode-normalization-0.1.12/Cargo.toml	2020-01-21T22:34:25+00:00
-+++ unicode-normalization-0.1.12/Cargo.toml	2020-01-27T20:37:28.924767+00:00
-@@ -14,7 +14,7 @@
+diff -up unicode-normalization-0.1.17/Cargo.toml.1~ unicode-normalization-0.1.17/Cargo.toml
+--- unicode-normalization-0.1.17/Cargo.toml.1~	2021-03-28 22:51:30.767192155 +0200
++++ unicode-normalization-0.1.17/Cargo.toml	2021-03-28 22:52:23.442023806 +0200
+@@ -15,7 +15,7 @@ edition = "2018"
  name = "unicode-normalization"
- version = "0.1.12"
- authors = ["kwantam <kwantam@gmail.com>"]
+ version = "0.1.17"
+ authors = ["kwantam <kwantam@gmail.com>", "Manish Goregaokar <manishsmail@gmail.com>"]
 -exclude = ["target/*", "Cargo.lock", "scripts/tmp", "*.txt", "tests/*"]
 +exclude = ["target/*", "Cargo.lock", "scripts/*", "*.txt", "tests/*"]
  description = "This crate provides functions for normalization of\nUnicode strings, including Canonical and Compatible\nDecomposition and Recomposition, as described in\nUnicode Standard Annex #15.\n"
