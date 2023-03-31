@@ -5,7 +5,7 @@
 
 Name:           rust-%{crate}
 Version:        0.1.17
-Release:        2
+Release:        3
 Summary:        Functions for normalization of Unicode strings, including Canonical and Compatible Decomposition and Recomposition, as described in Unicode Standard Annex #15
 
 # Upstream license specification: MIT/Apache-2.0
